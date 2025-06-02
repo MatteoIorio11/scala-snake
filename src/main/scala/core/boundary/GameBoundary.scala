@@ -2,7 +2,7 @@ package core.boundary
 
 import core.control.{GameController, GameState}
 
-trait Boundary:
+trait GameBoundary:
   def initialize(gameControl: GameState): Unit
   def update(gameControl: GameState): Unit
   def showGameOver(gameControl: GameState): Unit
