@@ -1,3 +1,4 @@
 package core.entity
 
-class Food
+class Food(val position: Position)
+
