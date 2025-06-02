@@ -1,3 +1,8 @@
 package core.control
 
-class GameConfig
+case class GameConfig(
+                       boardWidth: Int,
+                       boardHeight: Int,
+                       cellSize: Int,
+                       updateIntervalMs: Int)
+
